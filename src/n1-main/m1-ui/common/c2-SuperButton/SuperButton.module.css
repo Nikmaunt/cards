@@ -11,10 +11,12 @@
 }
 
 .default {
+
 }
 
 .red {
     background: red;
+    color: red;
 }
 
 .default:hover {

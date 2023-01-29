@@ -14,10 +14,9 @@ const TestSuperComponents = () => {
                 <SuperInputText/>
                 <SuperDebouncedInput/>
             </div>
-
             <SuperCheckbox/>
             <div>
-                <SuperButton hidden={false} disabled={false}/>
+                <SuperButton>Submit</SuperButton>
             </div>
             <div>
                 <SuperSelect/>
