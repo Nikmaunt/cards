@@ -1,0 +1,7 @@
+.header {
+    margin-top: 10px;
+}
+
+.header > a {
+    margin-left: 10px;
+}

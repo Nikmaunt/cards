@@ -1,0 +1,23 @@
+.input:focus {
+}
+
+.input {
+}
+
+.inputWrapper {
+
+    align-items: center;
+}
+
+.superInput {
+}
+
+.errorInput {
+}
+
+.errorInput:focus {
+}
+
+.error {
+    color: red;
+}

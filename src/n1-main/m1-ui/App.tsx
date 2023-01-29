@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
+import Main from "./main/Main";
 
-const App= () => {
+const App = () => {
   return (
     <div className="App">
-      {/*hash router,provider*/}
       <>
-          {/*  <Main/>*/}
-          {/*<Header/>*/}
-          {/*<Routes/>*/}
+            <Main/>
       </>
     </div>
   );

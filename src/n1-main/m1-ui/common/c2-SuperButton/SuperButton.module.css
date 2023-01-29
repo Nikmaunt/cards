@@ -1,0 +1,41 @@
+.button {
+    background-color: blue;
+
+}
+
+.disabled {
+    background-color: orange;
+}
+
+.secondary {
+}
+
+.default {
+}
+
+.red {
+    background: red;
+}
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+    background-color: orange;
+}
