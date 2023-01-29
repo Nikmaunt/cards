@@ -10,13 +10,21 @@ import SuperDebouncedInput from "../common/c8-SuperDebouncedInput/SuperDebounced
 const TestSuperComponents = () => {
     return (
         <div>
-            <SuperInputText/>
+            <div>
+                <SuperInputText/>
+                <SuperDebouncedInput/>
+            </div>
+
             <SuperCheckbox/>
-            <SuperButton/>
-            <SuperSelect/>
+            <div>
+                <SuperButton hidden={false} disabled={false}/>
+            </div>
+            <div>
+                <SuperSelect/>
+            </div>
+
             <SuperEditableSpan/>
-            <SuperEditableSpan/>
-            <SuperDebouncedInput/>
+
         </div>
     );
 };
